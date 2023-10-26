@@ -7,6 +7,6 @@ If you're new to programming in python and don't know where to start or practice
 # Primary goal: 
 Helps you to clear the concepts of coding questions from very beginning. All the questions are in sequence. Beginner -> Advance!
 
-# Happy Coding! All the best.
+### Happy Coding! All the best.
 
 
