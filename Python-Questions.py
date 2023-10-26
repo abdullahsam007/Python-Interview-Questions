@@ -13,3 +13,6 @@
 
 # common()
 
+
+# Count the frequency of the words
+
