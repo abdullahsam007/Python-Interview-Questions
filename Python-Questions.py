@@ -62,7 +62,6 @@
 
 
 #Find Out Pairs with given sum in an array in python of time complexity O(n log n)
-arr = [5, 7, 4, 3, 9, 8, 19, 21]
-sum = 17;
+
 
 
