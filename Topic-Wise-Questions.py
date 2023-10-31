@@ -153,33 +153,106 @@
 #     print(f"Element {target} not found in the array")
 
 
+# 10) Find Duplicates in an array
 
-  
+# def find_duplicates(arr):
+#     seen = set()
+#     duplicates = []
+#     for num in arr:
+#         if num in seen:
+#             duplicates.append(num)
+#         else:
+#             seen.add(num)
+            
+#     return duplicates
+
+# arr = [1, 2, 3, 4, 5]    
+# duplicates = find_duplicates(arr)
+# if duplicates:
+#     print(duplicates)
+
+# else:
+#     print("Duplicates not present!")
+
+# 11) Plus one (Increment +1 the last element of an array)
+
+# def plusOne(arr):
+#     if arr:
+#         last = arr[-1]
+#         increment = last + 1
+#         arr[-1] = increment
+#         print(arr)
+#     else:
+#         print('Bye')
+# arr = [1, 2, 5]        
+# plusOne(arr)
+
+# IN FOR LOOP AS WELL
+
+# def plusOne(arr):
+#     for i in arr:
+#         if i == arr[-1]:
+#             temp = i
+#             inc = temp + 1
+#             arr[-1] = inc
+            
+#     print(arr)
+            
+# arr = [1, 2, 5]        
+# plusOne(arr)
+
+
+# 12) Island Perimeter
+
+
+
+
+
+
+# --------------Strings---------------
+
+# 1) Reverse a string
+# def palindrome(str):
+
+#     rev = str[::-1]
+#     print(rev)
+# str = 'Hello'
+# palindrome(str)
+
+
+# 2) Check if the string/ digit palindrome or not
+
+# def palindrome(str):
+#     if str == str[::-1]:
+#         print("Palindrome!")
+#     else:
+#         print("Not Palindrome!")
+# str = "amma"        
+# palindrome(str)
+
+
+# 3) Find duplicate characters in string
+
+
+# def duplicates(str):
     
-
-
-
-
-
-
+#     seen = set()
+#     dup = set()
+    
+#     for char in str:
+#         if char in seen:
+#             dup.add(char)
+#         else:
+#             seen.add(char)
+            
+#     return dup
         
-
-
-
-
-
-
-
-
-
-
-     
-
-
-
-
-
     
+# str = "programming"    
+# result = duplicates(str)
+# print(result)
+
+
 
     
 
@@ -196,14 +269,6 @@
 
 
 
-
-
-
-
-
-
-
-# Strings
 # Queues
 # HashSets / Sets
 # HashMaps / Dictionary
